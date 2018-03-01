@@ -1,0 +1,48 @@
+2018-01-09 06:30:14Result::__set_state(array(
+   'success' => true,
+   'statusCode' => 200,
+   'requestData' => 
+  array (
+    'mobile' => '13821659206',
+    'text' => '【e家神灯】呜呜~~主人我是063013，我的机体已经倾斜了，赶快救救我吧',
+    'apikey' => '0a514aacaad683b6c713c825bea595b6',
+  ),
+   'responseData' => 
+  array (
+    'code' => 0,
+    'msg' => '发送成功',
+    'count' => 1,
+    'fee' => 1.0,
+    'unit' => 'COUNT',
+    'mobile' => '13821659206',
+    'sid' => 20889634064,
+  ),
+   'error' => NULL,
+))array (
+  'mobile' => '13821659206',
+  'text' => '【e家神灯】呜呜~~主人我是063013，我的机体已经倾斜了，赶快救救我吧',
+)
+2018-01-09 06:32:30Result::__set_state(array(
+   'success' => true,
+   'statusCode' => 200,
+   'requestData' => 
+  array (
+    'mobile' => '13821659206',
+    'text' => '【e家神灯】呜呜~~主人我是063229，我的机体已经倾斜了，赶快救救我吧',
+    'apikey' => '0a514aacaad683b6c713c825bea595b6',
+  ),
+   'responseData' => 
+  array (
+    'code' => 0,
+    'msg' => '发送成功',
+    'count' => 1,
+    'fee' => 1.0,
+    'unit' => 'COUNT',
+    'mobile' => '13821659206',
+    'sid' => 20889685960,
+  ),
+   'error' => NULL,
+))array (
+  'mobile' => '13821659206',
+  'text' => '【e家神灯】呜呜~~主人我是063229，我的机体已经倾斜了，赶快救救我吧',
+)
