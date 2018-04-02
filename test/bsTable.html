@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/dist/bootstrap-table.css">
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/dist/bootstrap-table.js"></script>
+    <script src="/dist/extensions/toolbar/bootstrap-table-toolbar.js"></script>
+    <script src="/dist/locale/bootstrap-table-zh-CN.js"></script>
+</head>
+<body>
+<form action="" id="search" data-table-id="table">
+    <input type="text" name="name" title="name"/>
+    <input type="text" name="price" title="price"/>
+    <button type="submit">搜索</button>
+    <button type="reset">重置</button>
+</form>
+
+<button onclick="help.reload2()">重新加载2</button>
+<table id="table"></table>
+<div id="desc"></div>
+
+<script>
+    $.fn.serializeObject = function () {
+        var o = {};
+        var a = this.serializeArray();
+        $.each(a, function () {
+            if (o[this.name] !== undefined) {
+                if (!o[this.name].push) {
+                    o[this.name] = [o[this.name]];
+                }
+                o[this.name].push(this.value || '');
+            } else {
+                o[this.name] = this.value || '';
+            }
+        });
+        return o;
+    };
+
+    $("#search").on('submit', function (e) {
+        e.preventDefault();
+        try {
+            var id = $(this).data("table-id");
+            if (id) {
+                var obj = $(this).serializeObject();
+                help.reload(id, obj);
+            } else {
+                console.log("没找到对应的table");
+                return false;
+            }
+        } catch (e) {
+            alert("搜索发生错误");
+            return false;
+        }
+    });
+
+    var help = {
+        reload2: function () {
+            $('#table').bootstrapTable('refresh');
+        },
+        reload: function (id, sParams) {
+            var options = $('#table').bootstrapTable('getOptions');
+            options.pageNumber = 1;
+            options.queryParams = function (params) {
+                var p = {
+                    search: params.search,
+                    sort: params.sort,
+                    order: params.order,
+                    offset: params.offset,
+                    limit: params.limit
+                };
+                for (var key in sParams) {
+                    p[key] = sParams[key];
+                }
+                return p;
+            };
+            $('#' + id).bootstrapTable('refreshOptions', options);
+        }
+    };
+
+    $('#table').bootstrapTable({
+        url: 'index.php',
+        sidePagination: "server",
+        pagination: true,
+        onlyInfoPagination: false,
+        search: true,
+        advancedSearch: true,
+        idForm: 'user',
+        columns: [{
+            field: 'id',
+            title: 'Item ID',
+            sortable: true
+        }, {
+            field: 'name',
+            title: 'Item Name'
+        }, {
+            field: 'price',
+            title: 'Item Price'
+        }]
+    });
+</script>
+</body>
+</html>
