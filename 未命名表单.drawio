@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-06T02:06:03.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="5CMOCCzWT1T8X01BA9N-" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-06T02:06:49.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="elzGPklKapqPMZWoACFP" version="12.4.8" type="github">
   <diagram id="QiGTYNl4N9ceNPrgLzq6" name="第 1 页">
     <mxGraphModel dx="1038" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,6 +114,15 @@
         </mxCell>
         <mxCell id="DhgyCHtqx01L9qddXzzI-20" value="192.168.1.113" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="453" y="345" width="62" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="DhgyCHtqx01L9qddXzzI-21" value="192.168.1.120" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="170" width="62" height="21" as="geometry"/>
+        </mxCell>
+        <mxCell id="DhgyCHtqx01L9qddXzzI-22" value="192.168.1.121" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="300" width="62" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="DhgyCHtqx01L9qddXzzI-23" value="192.168.1.122" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="638" y="300" width="62" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
