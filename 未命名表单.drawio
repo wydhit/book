@@ -1,9 +1,12 @@
-<mxfile host="www.draw.io" modified="2020-01-09T05:20:16.011Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="vlW7RrhCfxYFdTfxoe98" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-09T05:21:42.957Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="gaQdIxiyyL39bEh51eLH" version="12.4.9" type="github">
   <diagram id="QiGTYNl4N9ceNPrgLzq6" name="第 1 页">
     <mxGraphModel dx="1038" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
+        <mxCell id="1fBcFO8rb7ZJvFcUv1nq-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="49" y="450" width="741" height="282.5" as="geometry"/>
+        </mxCell>
         <mxCell id="1fBcFO8rb7ZJvFcUv1nq-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="49" y="147.5" width="741" height="282.5" as="geometry"/>
         </mxCell>
@@ -56,13 +59,13 @@
           <mxGeometry x="618" y="315" width="50" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="pDK3zzf52nW7GtSUq7cf-43" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" parent="1" vertex="1">
-          <mxGeometry x="131.5" y="510" width="47.5" height="50" as="geometry"/>
+          <mxGeometry x="130.5" y="520" width="47.5" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="pDK3zzf52nW7GtSUq7cf-44" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.operating_system_image;" parent="1" vertex="1">
           <mxGeometry x="471.5" y="510" width="50" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="pDK3zzf52nW7GtSUq7cf-45" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" parent="1" vertex="1">
-          <mxGeometry x="196.5" y="510" width="47.5" height="50" as="geometry"/>
+          <mxGeometry x="184.25" y="520" width="47.5" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="pDK3zzf52nW7GtSUq7cf-46" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.database;" parent="1" vertex="1">
           <mxGeometry x="301" y="510" width="40.5" height="50" as="geometry"/>
@@ -129,6 +132,18 @@
         </mxCell>
         <mxCell id="1fBcFO8rb7ZJvFcUv1nq-7" value="服务层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="160" width="50" height="27.5" as="geometry"/>
+        </mxCell>
+        <mxCell id="1fBcFO8rb7ZJvFcUv1nq-9" value="数据支撑层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="80" height="27.5" as="geometry"/>
+        </mxCell>
+        <mxCell id="1fBcFO8rb7ZJvFcUv1nq-10" value="mysql" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="128" y="577.5" width="80" height="27.5" as="geometry"/>
+        </mxCell>
+        <mxCell id="1fBcFO8rb7ZJvFcUv1nq-11" value="redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="306.5" y="577.5" width="80" height="27.5" as="geometry"/>
+        </mxCell>
+        <mxCell id="1fBcFO8rb7ZJvFcUv1nq-12" value="S3储存引擎" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="514" y="577.5" width="80" height="27.5" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
