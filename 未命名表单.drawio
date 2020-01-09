@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-09T10:01:52.259Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="rTTZgpaWd4jF-8yOX1ly" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-09T10:02:02.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="majjpt0ndsJu_aCBgw32" version="12.4.9" type="github">
   <diagram id="QiGTYNl4N9ceNPrgLzq6" name="第 1 页">
     <mxGraphModel dx="1407" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,9 +168,6 @@
         </mxCell>
         <mxCell id="1fBcFO8rb7ZJvFcUv1nq-25" value="&lt;font style=&quot;font-size: 18px&quot;&gt;储存管理&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="105" y="990" width="82" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="1fBcFO8rb7ZJvFcUv1nq-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.743;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1fBcFO8rb7ZJvFcUv1nq-25" target="1fBcFO8rb7ZJvFcUv1nq-25">
-          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="1fBcFO8rb7ZJvFcUv1nq-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="233" y="970" width="120" height="60" as="geometry"/>
