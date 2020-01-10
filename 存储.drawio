@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-09T09:27:54.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="qeLoF6Gey9GaZ-oVUlbd" version="12.5.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-10T07:19:05.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="75I7-HQ6xg_MuGa0zF9U" version="12.5.1" type="github">
   <diagram id="Mt_lALCUaMFA22f0Kt4g" name="第 1 页">
     <mxGraphModel dx="1278" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="165" y="50" width="370" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="-jVNd67lU8PMKVuE0ltb-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;S3服务器：&lt;/font&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;adminAksk&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="90" width="180" height="20" as="geometry"/>
+          <mxGeometry x="260" y="80" width="180" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="-jVNd67lU8PMKVuE0ltb-3" value="aksk" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="130" y="220" width="50" height="50" as="geometry"/>
